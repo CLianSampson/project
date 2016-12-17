@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189251FC1E05061B00FE35AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189251FB1E05061B00FE35AD /* main.m */; };
+		189251FF1E05061B00FE35AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189251FE1E05061B00FE35AD /* AppDelegate.m */; };
+		189252021E05061B00FE35AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189252011E05061B00FE35AD /* ViewController.m */; };
+		189252051E05061B00FE35AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189252031E05061B00FE35AD /* Main.storyboard */; };
+		189252071E05061B00FE35AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189252061E05061B00FE35AD /* Assets.xcassets */; };
+		1892520A1E05061B00FE35AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189252081E05061B00FE35AD /* LaunchScreen.storyboard */; };
+		189252151E05061B00FE35AD /* MuchMoneyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189252141E05061B00FE35AD /* MuchMoneyTests.m */; };
+		189252201E05061B00FE35AD /* MuchMoneyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892521F1E05061B00FE35AD /* MuchMoneyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		189252111E05061B00FE35AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189251EF1E05061B00FE35AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189251F61E05061B00FE35AD;
+			remoteInfo = MuchMoney;
+		};
+		1892521C1E05061B00FE35AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189251EF1E05061B00FE35AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189251F61E05061B00FE35AD;
+			remoteInfo = MuchMoney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189251F71E05061B00FE35AD /* MuchMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuchMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189251FB1E05061B00FE35AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		189251FD1E05061B00FE35AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		189251FE1E05061B00FE35AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		189252001E05061B00FE35AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		189252011E05061B00FE35AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		189252041E05061B00FE35AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189252061E05061B00FE35AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189252091E05061B00FE35AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1892520B1E05061B00FE35AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189252101E05061B00FE35AD /* MuchMoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuchMoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189252141E05061B00FE35AD /* MuchMoneyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuchMoneyTests.m; sourceTree = "<group>"; };
+		189252161E05061B00FE35AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1892521B1E05061B00FE35AD /* MuchMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuchMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1892521F1E05061B00FE35AD /* MuchMoneyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuchMoneyUITests.m; sourceTree = "<group>"; };
+		189252211E05061B00FE35AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189251F41E05061B00FE35AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1892520D1E05061B00FE35AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189252181E05061B00FE35AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189251EE1E05061B00FE35AD = {
+			isa = PBXGroup;
+			children = (
+				189251F91E05061B00FE35AD /* MuchMoney */,
+				189252131E05061B00FE35AD /* MuchMoneyTests */,
+				1892521E1E05061B00FE35AD /* MuchMoneyUITests */,
+				189251F81E05061B00FE35AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189251F81E05061B00FE35AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189251F71E05061B00FE35AD /* MuchMoney.app */,
+				189252101E05061B00FE35AD /* MuchMoneyTests.xctest */,
+				1892521B1E05061B00FE35AD /* MuchMoneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189251F91E05061B00FE35AD /* MuchMoney */ = {
+			isa = PBXGroup;
+			children = (
+				189251FD1E05061B00FE35AD /* AppDelegate.h */,
+				189251FE1E05061B00FE35AD /* AppDelegate.m */,
+				189252001E05061B00FE35AD /* ViewController.h */,
+				189252011E05061B00FE35AD /* ViewController.m */,
+				189252031E05061B00FE35AD /* Main.storyboard */,
+				189252061E05061B00FE35AD /* Assets.xcassets */,
+				189252081E05061B00FE35AD /* LaunchScreen.storyboard */,
+				1892520B1E05061B00FE35AD /* Info.plist */,
+				189251FA1E05061B00FE35AD /* Supporting Files */,
+			);
+			path = MuchMoney;
+			sourceTree = "<group>";
+		};
+		189251FA1E05061B00FE35AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				189251FB1E05061B00FE35AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		189252131E05061B00FE35AD /* MuchMoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				189252141E05061B00FE35AD /* MuchMoneyTests.m */,
+				189252161E05061B00FE35AD /* Info.plist */,
+			);
+			path = MuchMoneyTests;
+			sourceTree = "<group>";
+		};
+		1892521E1E05061B00FE35AD /* MuchMoneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1892521F1E05061B00FE35AD /* MuchMoneyUITests.m */,
+				189252211E05061B00FE35AD /* Info.plist */,
+			);
+			path = MuchMoneyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189251F61E05061B00FE35AD /* MuchMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189252241E05061B00FE35AD /* Build configuration list for PBXNativeTarget "MuchMoney" */;
+			buildPhases = (
+				189251F31E05061B00FE35AD /* Sources */,
+				189251F41E05061B00FE35AD /* Frameworks */,
+				189251F51E05061B00FE35AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuchMoney;
+			productName = MuchMoney;
+			productReference = 189251F71E05061B00FE35AD /* MuchMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1892520F1E05061B00FE35AD /* MuchMoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189252271E05061B00FE35AD /* Build configuration list for PBXNativeTarget "MuchMoneyTests" */;
+			buildPhases = (
+				1892520C1E05061B00FE35AD /* Sources */,
+				1892520D1E05061B00FE35AD /* Frameworks */,
+				1892520E1E05061B00FE35AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189252121E05061B00FE35AD /* PBXTargetDependency */,
+			);
+			name = MuchMoneyTests;
+			productName = MuchMoneyTests;
+			productReference = 189252101E05061B00FE35AD /* MuchMoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1892521A1E05061B00FE35AD /* MuchMoneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1892522A1E05061B00FE35AD /* Build configuration list for PBXNativeTarget "MuchMoneyUITests" */;
+			buildPhases = (
+				189252171E05061B00FE35AD /* Sources */,
+				189252181E05061B00FE35AD /* Frameworks */,
+				189252191E05061B00FE35AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1892521D1E05061B00FE35AD /* PBXTargetDependency */,
+			);
+			name = MuchMoneyUITests;
+			productName = MuchMoneyUITests;
+			productReference = 1892521B1E05061B00FE35AD /* MuchMoneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189251EF1E05061B00FE35AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Samposn Chen";
+				TargetAttributes = {
+					189251F61E05061B00FE35AD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1892520F1E05061B00FE35AD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 189251F61E05061B00FE35AD;
+					};
+					1892521A1E05061B00FE35AD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 189251F61E05061B00FE35AD;
+					};
+				};
+			};
+			buildConfigurationList = 189251F21E05061B00FE35AD /* Build configuration list for PBXProject "MuchMoney" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189251EE1E05061B00FE35AD;
+			productRefGroup = 189251F81E05061B00FE35AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189251F61E05061B00FE35AD /* MuchMoney */,
+				1892520F1E05061B00FE35AD /* MuchMoneyTests */,
+				1892521A1E05061B00FE35AD /* MuchMoneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189251F51E05061B00FE35AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1892520A1E05061B00FE35AD /* LaunchScreen.storyboard in Resources */,
+				189252071E05061B00FE35AD /* Assets.xcassets in Resources */,
+				189252051E05061B00FE35AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1892520E1E05061B00FE35AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189252191E05061B00FE35AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189251F31E05061B00FE35AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189252021E05061B00FE35AD /* ViewController.m in Sources */,
+				189251FF1E05061B00FE35AD /* AppDelegate.m in Sources */,
+				189251FC1E05061B00FE35AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1892520C1E05061B00FE35AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189252151E05061B00FE35AD /* MuchMoneyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189252171E05061B00FE35AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189252201E05061B00FE35AD /* MuchMoneyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189252121E05061B00FE35AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189251F61E05061B00FE35AD /* MuchMoney */;
+			targetProxy = 189252111E05061B00FE35AD /* PBXContainerItemProxy */;
+		};
+		1892521D1E05061B00FE35AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189251F61E05061B00FE35AD /* MuchMoney */;
+			targetProxy = 1892521C1E05061B00FE35AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		189252031E05061B00FE35AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189252041E05061B00FE35AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189252081E05061B00FE35AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189252091E05061B00FE35AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189252221E05061B00FE35AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		189252231E05061B00FE35AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189252251E05061B00FE35AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MuchMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Loney-Devil.MuchMoney";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		189252261E05061B00FE35AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MuchMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Loney-Devil.MuchMoney";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		189252281E05061B00FE35AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MuchMoneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Loney-Devil.MuchMoneyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuchMoney.app/MuchMoney";
+			};
+			name = Debug;
+		};
+		189252291E05061B00FE35AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MuchMoneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Loney-Devil.MuchMoneyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuchMoney.app/MuchMoney";
+			};
+			name = Release;
+		};
+		1892522B1E05061B00FE35AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MuchMoneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Loney-Devil.MuchMoneyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MuchMoney;
+			};
+			name = Debug;
+		};
+		1892522C1E05061B00FE35AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MuchMoneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Loney-Devil.MuchMoneyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MuchMoney;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189251F21E05061B00FE35AD /* Build configuration list for PBXProject "MuchMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189252221E05061B00FE35AD /* Debug */,
+				189252231E05061B00FE35AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189252241E05061B00FE35AD /* Build configuration list for PBXNativeTarget "MuchMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189252251E05061B00FE35AD /* Debug */,
+				189252261E05061B00FE35AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		189252271E05061B00FE35AD /* Build configuration list for PBXNativeTarget "MuchMoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189252281E05061B00FE35AD /* Debug */,
+				189252291E05061B00FE35AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1892522A1E05061B00FE35AD /* Build configuration list for PBXNativeTarget "MuchMoneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1892522B1E05061B00FE35AD /* Debug */,
+				1892522C1E05061B00FE35AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189251EF1E05061B00FE35AD /* Project object */;
+}
