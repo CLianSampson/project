@@ -8,6 +8,11 @@
 
 #import "BaseVC.h"
 
+typedef void(^MyBlock)(NSString *);
+
 @interface MainVC : BaseVC
+
+@property(nonatomic,copy) MyBlock block;
+
 
 @end
